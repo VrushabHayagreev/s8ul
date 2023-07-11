@@ -46,9 +46,9 @@ const Brands = () => {
               data-wow-delay=".1s
               "
             >
-              {brandsData.map((brand) => (
+              {/* {brandsData.map((brand) => (
                 <Profile/>
-              ))}
+              ))} */}
             </div>
           </div>
         </div>
