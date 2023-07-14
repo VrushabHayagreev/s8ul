@@ -1,3 +1,4 @@
+"use client"; 
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 
@@ -19,8 +20,138 @@ const AboutSectionOne = () => {
   );
 
   return (
-    
+  
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+  
+    
+          <div>
+             <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+       
+      
+          <div className="flex flex-wrap -m-4">
+          <div className="flex min-h-screen p-10 flex-col justify-center bg-slate-100">
+        <div className="group h-96 w-96 [perspective:1000px]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                <div className="absolute inset-0">
+                    <img className = "h-full w-full rounded-xl object-cover shadow-xl shadow-black/40 " src = "https://yt3.googleusercontent.com/S9xWprcFyvLqpr2YVxa8WhnEtu3BCBD0l-ZkeOdfxIUjMzy-JC5a2Uaq2QIkU1txrtFv7XurOLk=s900-c-k-c0x00ffffff-no-rj "/>
+                </div>
+                <div className="absolute inset-0 h-full w-full rounded-xl bg-black/50 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    <div className="flex min-h-full flex-col items-center justify-center">
+                       
+                        <h1 className="text-3xl font-bold">
+                            Vrushab Hanumesh
+                        </h1>
+                        <p className="text-lg">
+                            Gaming
+                        </p>
+                        <p className="text-base">
+                            details
+                        </p>
+                        <button className="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900"> Page</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div className="flex min-h-screen p-10 flex-col justify-center bg-slate-100">
+        <div className="group h-96 w-96 [perspective:1000px]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                <div className="absolute inset-0">
+                    <img className = "h-full w-full rounded-xl object-cover shadow-xl shadow-black/40 " src = "https://aflence.com/wp-content/uploads/2023/03/Soul-Viper-Cover-1.png "/>
+                </div>
+                <div className="absolute inset-0 h-full w-full rounded-xl bg-black/50 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    <div className="flex min-h-full flex-col items-center justify-center">
+                       
+                        <h1 className="text-3xl font-bold">
+                            Vrushab Hanumesh
+                        </h1>
+                        <p className="text-lg">
+                            Gaming
+                        </p>
+                        <p className="text-base">
+                            details
+                        </p>
+                        <button className="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900"> Page</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+              <div className="flex min-h-screen flex-col p-10 justify-center bg-slate-100">
+        <div className="group h-96 w-96 [perspective:1000px]">
+            <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] [backface-visibility:hidden] group-hover:[transform:rotateY(180deg)]">
+                <div className="absolute inset-0">
+                    <img className = "h-full w-full rounded-xl object-cover shadow-xl shadow-black/40 " src = "https://fampediabiographydata.files.wordpress.com/2022/09/naman-mathur-1-edited.jpg"/>
+                </div>
+                <div className="absolute inset-0 h-full w-full rounded-xl bg-black px-12 text-center  bg-soul bg-cover  [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                    <div className="flex min-h-full flex-col items-center justify-center">
+                       
+                        <h1 className="text-3xl font-bold">
+                            Vrushab Hanumesh
+                        </h1>
+                        <p className="text-lg">
+                            Gaming
+                        </p>
+                        <p className="text-base">
+                            details
+                        </p>
+                        <button className="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900"> Page</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+            <div className="p-4 md:w-1/3">
+              <div className="h-full rounded-xl shadow-cla-blue bg-white bg-opacity-50 from-indigo-50 to-blue-50 overflow-hidden">
+                <img className="lg:h-80 md:h-60 w-full object-cover  scale-110 transition-all duration-400 hover:scale-100" src="https://yt3.googleusercontent.com/S9xWprcFyvLqpr2YVxa8WhnEtu3BCBD0l-ZkeOdfxIUjMzy-JC5a2Uaq2QIkU1txrtFv7XurOLk=s900-c-k-c0x00ffffff-no-rj " alt="blog"/>
+                <div className="p-6">
+                  <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2>
+                  <h1 className="title-font text-lg font-medium text-gray-600 mb-3">The Catalyzer</h1>
+                  <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                  <div className="flex items-center flex-wrap ">
+                    <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Learn more</button>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+       
+            <div className="p-4 md:w-1/3">
+              <div className="h-full rounded-xl shadow-cla-blue bg-white bg-opacity-50 from-indigo-50 to-blue-50 overflow-hidden">
+                <img className="lg:h-80 md:h-60 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100" src="https://aflence.com/wp-content/uploads/2023/03/Soul-Viper-Cover-1.png" alt="blog"/>
+                <div className="p-6">
+                  <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2>
+                  <h1 className="title-font text-lg font-medium text-gray-600 mb-3">The Catalyzer</h1>
+                  <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                  <div className="flex items-center flex-wrap ">
+                    <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Learn more</button>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="p-4 md:w-1/3">
+              <div className="h-full rounded-xl shadow-cla-blue bg-white bg-opacity-50 from-indigo-50 to-blue-50 overflow-hidden">
+                <img className="lg:h-80 md:h-60 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100" src="https://fampediabiographydata.files.wordpress.com/2022/09/naman-mathur-1-edited.jpg" alt="blog"/>
+                <div className="p-6">
+                  <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2>
+                  <h1 className="title-font text-lg font-medium text-gray-600 mb-3">The Catalyzer</h1>
+                  <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                  <div className="flex items-center flex-wrap ">
+                    <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Learn more</button>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+             
+          </div>
+        </div>
+      </section>
+    </div>
+  
        <section className="pt-20 pb-48">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">

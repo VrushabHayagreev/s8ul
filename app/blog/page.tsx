@@ -10,7 +10,7 @@ const Blog = () => {
         pageName="Our Creators"
         description="Get To Know The Creators of S8ul"
       />
-      <div>
+      
       <section className="pt-[120px] pb-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
@@ -26,8 +26,7 @@ const Blog = () => {
 
           
         </div>
-      </section> </div>
- 
+      </section>
     </>
   );
 };

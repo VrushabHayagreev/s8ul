@@ -2,12 +2,16 @@
 const plugin = require("tailwindcss/plugin");
 const colors = require("tailwindcss/colors");
 
+
 module.exports = {
 
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+
   ],
   darkMode: "class",
   theme: {
@@ -65,9 +69,10 @@ module.exports = {
        },
       backgroundImage:{
         'landing': 'url(https://wallpapercave.com/wp/wp9527211.jpg)',
-        'rest' : 'url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700321608.jpg)'
+        'rest' : 'url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700321608.jpg)',
+        'soul':'url(https://server-avatar.nimostatic.tv/201904301556598026100_2339511938981_avatar.png)',
       },
     },
   },
-  plugins: [],
+  plugins: []
 };
