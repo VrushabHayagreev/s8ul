@@ -1,6 +1,6 @@
 import { Brand } from "@/types/brand";
 import Image from "next/image";
-import Profile from "../Profile";
+
 
 const brandsData: Brand[] = [
   {
@@ -46,9 +46,7 @@ const Brands = () => {
               data-wow-delay=".1s
               "
             >
-              {/* {brandsData.map((brand) => (
-                <Profile/>
-              ))} */}
+             
             </div>
           </div>
         </div>

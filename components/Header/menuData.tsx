@@ -40,7 +40,13 @@ const menuData: Menu[] = [
       {
         id: 41,
         title: "Shop ",
-        path: "/shop",
+        path: "https://www.instagram.com/s8ulstore.in/?hl=en",
+        newTab: false,
+      },
+      {
+        id: 44,
+        title: "8bit Creatives ",
+        path: "https://8bitcreatives.in/",
         newTab: false,
       },
       {

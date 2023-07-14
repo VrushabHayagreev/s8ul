@@ -38,7 +38,7 @@ const AboutSectionOne = () => {
                   <img
                     alt="..."
                     src="images/owners/mortal.png"
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="rounded-full px-30 py-30 mx-auto h-90 w-90 md:h-80 md:w-80"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Naman Mathur (Mortal)</h5>
@@ -137,7 +137,7 @@ const AboutSectionOne = () => {
                   <img
                     alt="..."
                     src="images/owners/mercy.png"
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="rounded-full px-30 py-30 mx-auto h-90 w-90 md:h-80  max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Mrinmoy Lahka (Mercy)</h5>

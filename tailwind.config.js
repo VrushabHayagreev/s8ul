@@ -58,6 +58,11 @@ module.exports = {
         one: "0px 2px 3px rgba(7, 7, 77, 0.05)",
         sticky: "inset 0 -1px 0 0 rgba(0, 0, 0, 0.1)",
       },
+      opacity: {
+        '15': '0.15',
+        '35': '0.35',
+        '65': '0.65',
+       },
       backgroundImage:{
         'landing': 'url(https://wallpapercave.com/wp/wp9527211.jpg)',
         'rest' : 'url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700321608.jpg)'
