@@ -2,11 +2,15 @@
 
 export type Blog = {
   id: number;
-  title: string;
-  paragraph: string;
-  image: string;
-
-  tags: string[];
-  publishDate: string;
+  name: string;
+  role: string;
+  dateofbirth: string;
+  location: string;
+  shortdesc : string;
+  imagecard : string;
+  imageprofile : string;
+  insta : string;
+  discord : string;
+  loco : string;
 };
 

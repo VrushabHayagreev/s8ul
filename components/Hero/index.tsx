@@ -21,12 +21,12 @@ const Hero = () => {
                 One Stop for everything you want to know about S8ul from content ctreation, esports to events.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
+                  {/* <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                    Leave a Like here 
-                  </Link>
+                  </Link> */}
                 
                 </div>
               </div>
