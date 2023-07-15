@@ -12,7 +12,7 @@ const Blog = () => {
       />
       <section className="pt-[40px] pb-[40px]">
         <div className="container"> 
-        <a href="https://www.instagram.com/s8ul.esports/?hl=en" className="text-gray-700  block text-center text-4xl hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SOUL Esports</a>
+        <a href="https://www.instagram.com/s8ul.esports/?hl=en" className="text-gray-700  block text-center  hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-3xl px-5 py-2.5 text-center mr-2 mb-2">SOUL Esports</a>
 
           <div className="-mx-4 flex flex-wrap justify-center">
             {soul.map((blog) => (
@@ -24,10 +24,10 @@ const Blog = () => {
               </div>
             ))}
       <div className="pt-20">
-        <h1>Achievements</h1>
+  
 
 
-      <a href="https://www.instagram.com/8bit.esportsofficial/" className="text-gray-700  block text-center text-4xl hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">8bit Esports</a>
+      <a href="https://www.instagram.com/8bit.esportsofficial/" className="text-gray-700  block text-center text-3xl hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg  px-5 py-2.5 text-center mr-2 mb-2">8bit Esports</a>
 
       </div>
 

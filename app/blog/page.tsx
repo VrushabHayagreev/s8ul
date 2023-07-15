@@ -11,7 +11,7 @@ const Blog = () => {
         description="Get To Know The Creators of S8ul"
       />
       
-      <section className="pt-[120px] pb-[120px]">
+      <section className="">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (
