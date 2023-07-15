@@ -5,7 +5,7 @@ import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 
 import ModalVideo from "react-modal-video";
-import Pageate from "../Pageate";
+
 
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
