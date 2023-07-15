@@ -31,7 +31,7 @@ import { Carousel } from 'flowbite-react';
         
         <Carousel>
         {achsoul.map((data) => (
-                <div class="relative  shadow-2xl  rounded-lg">
+                <div key={data.id} class="relative  shadow-2xl  rounded-lg">
                 <img className= "transition opacity-40 ease-in-out delay-100 bg-blue-500 hover:-translate-y-4 hover:scale-110 hover:bg-indigo-500 duration-300 shadow-5xl hover:-translate-y-1 " src={data.img} />
                 <h1 class="absolute text-2xl text-bold text-white text-center w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     {data.title}</h1>
@@ -56,9 +56,9 @@ import { Carousel } from 'flowbite-react';
  
      <div className="overflow-hidden relative h-80   shadow-5xl sm:h-64 xl:h-80 2xl:h-96">
      
-     <Carousel>
+     <Carousel >
      {ach8bit.map((data) => (
-             <div class="relative  shadow-2xl  rounded-lg">
+             <div key={data.id} class="relative  shadow-2xl  rounded-lg">
              <img className= "transition opacity-40 ease-in-out delay-100 bg-blue-500 hover:-translate-y-4 hover:scale-110 hover:bg-indigo-500 duration-300 shadow-5xl hover:-translate-y-1 " src={data.img} />
              <h1 class="absolute text-2xl text-bold text-white text-center w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                  {data.title}</h1>
