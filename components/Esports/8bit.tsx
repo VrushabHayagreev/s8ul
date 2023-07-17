@@ -14,6 +14,8 @@ const eightbit : Blog[] = [
     insta : "insta",
     discord : "discord",
     loco : "loco",
+    realname : "name",
+    youtube : "youtube",
   },
   {
     id: 8,
@@ -28,6 +30,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "name",
+youtube : "youtube",
   },
   {
     id: 9,
@@ -42,6 +46,8 @@ loco : "loco",
     insta : "insta",
     discord : "discord",
     loco : "loco",
+    realname : "name",
+    youtube : "youtube",
  
   },
   {
@@ -57,8 +63,11 @@ loco : "loco",
     insta : "insta",
     discord : "discord",
     loco : "loco",
+    realname : "name",
+    youtube : "youtube",
 
   },
+
 
 
 ];

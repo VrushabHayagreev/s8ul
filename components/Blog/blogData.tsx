@@ -16,8 +16,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
  
   },
@@ -35,8 +35,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -56,8 +56,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -76,8 +76,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -97,8 +97,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -117,8 +117,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -138,8 +138,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -159,8 +159,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -180,8 +180,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -201,8 +201,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -222,8 +222,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -243,8 +243,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -264,8 +264,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -285,8 +285,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -306,8 +306,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -327,8 +327,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -348,8 +348,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -369,8 +369,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -390,8 +390,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -411,8 +411,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -432,8 +432,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -453,8 +453,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -474,8 +474,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -495,8 +495,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -518,8 +518,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
@@ -539,8 +539,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
-realname : "",
-youtube : "",
+realname : "name",
+youtube : "youtube",
     
 
   },
