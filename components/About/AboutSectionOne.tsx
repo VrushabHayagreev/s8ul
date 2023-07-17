@@ -21,7 +21,7 @@ const AboutSectionOne = () => {
 
   return (
   
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+    <section id="about" className="bg-gradient-to-br from-[#0083f5] via-[#00bfd8] to-[#0083f5] pt-16 md:pt-20 lg:pt-28">
   
 {/*     
           <div>

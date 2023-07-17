@@ -2,7 +2,7 @@ import { Blog } from "@/types/blog";
 
 const eightbit : Blog[] = [
   {
-    id: 1,
+    id: 7,
     name: "JUICY",
     role:
       "IGL Team 8bit",
@@ -16,7 +16,7 @@ const eightbit : Blog[] = [
     loco : "loco",
   },
   {
-    id: 2,
+    id: 8,
     name: "MADMAN",
     role:
       "Assualter team 8bit ",
@@ -30,7 +30,7 @@ discord : "discord",
 loco : "loco",
   },
   {
-    id: 3,
+    id: 9,
     name: "BEAST",
     role:
       "Assaulter team 8bit",
@@ -45,7 +45,7 @@ loco : "loco",
  
   },
   {
-    id: 4,
+    id: 10,
     name: "MIGHTYY",
     role:
       "support team 8bit",

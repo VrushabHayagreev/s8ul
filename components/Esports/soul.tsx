@@ -6,15 +6,17 @@ const Soul : Blog[] = [
     name: "OMEGA",
     role:
       "IGL Team Soul",
-    imagecard: "https://aflence.com/wp-content/uploads/2023/04/Soul-Omega-Cover-1.png",
-    dateofbirth: "August 31 1998",
+    imagecard: "https://yt3.googleusercontent.com/OnV9TfKhHFC6pjyFEnECnkRSE0meseLYhqZMWnB-HW1oDRwgFgU3LPZK0kQUolqAu10lEp_aIw=s900-c-k-c0x00ffffff-no-rj",
+    dateofbirth: "February 24, 2000",
     location: "India",
-    shortdesc : "Regaltos Real Name Is Parv Singh (born December 12, 2000) is an Indian PUBG Mobile player who currently plays for VTE and is a Content Creator for 8Bit Creatives. He is a popular Gamer, YouTuber, and eSports athlete for VTE. He was born on December 12, 2000, in New Delhi. Parv completed his schooling in Delhi.",
+    shortdesc : "Sahil Omega Jakhar is an Indian player who is currently playing for Team SouL.The BGMI community has been blessed with many players representing India on the global stage. Following the win in BMPS 2022 Season 1,Heled Team SouL in the recently concluded PUBG Mobile World Invitational Main Event, held in Riyadh. His clear vision and precise calls have helped him emerge as one of the best IGLs in the country. Besides being a player, he is also a content creator and a friendly streamer. Before joining he had played for 8bit. As Being the IGL of his team he has Made his team win many tournaments and many podium finishes. Some of them are : 1st in BMPS S1 2nd in Skyesports GrandSlam 2022 1st in Pro Warrior Cup S2 : Ultimate Round and many more.",
     
-    imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba13aa46094f9e5.webp",
-    insta : "insta",
-    discord : "discord",
+    imageprofile : "https://aflence.com/wp-content/uploads/2023/04/Soul-Omega-4-819x1024.webp",
+    insta : "https://www.instagram.com/soul_omegaaaa/",
+    discord : "https://appopener.com/web/nnyw0n6ty",
     loco : "loco",
+    realname : "Sahil Jakhar",
+    youtube : "https://www.youtube.com/c/OMEGAAAA"
   },
   {
     id: 2,
@@ -30,6 +32,8 @@ const Soul : Blog[] = [
     insta : "insta",
     discord : "discord",
     loco : "loco",
+    realname : "",
+    youtube : ""
   },
   {
     id: 3,
@@ -45,6 +49,8 @@ const Soul : Blog[] = [
     insta : "insta",
     discord : "discord",
     loco : "loco",
+    realname : "",
+    youtube : ""
 
   },
   {
@@ -61,6 +67,8 @@ const Soul : Blog[] = [
     insta : "insta",
     discord : "discord",
     loco : "loco",
+    realname : "",
+    youtube : ""
 
   },
   {
@@ -77,6 +85,8 @@ const Soul : Blog[] = [
     insta : "insta",
     discord : "discord",
     loco : "loco",
+    realname : "",
+    youtube : ""
 
   },
   {
@@ -93,6 +103,8 @@ const Soul : Blog[] = [
     insta : "insta",
     discord : "discord",
     loco : "loco",
+    realname : "",
+    youtube : ""
 
   },
   

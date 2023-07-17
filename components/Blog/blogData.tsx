@@ -16,6 +16,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
  
   },
@@ -33,6 +35,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
@@ -52,6 +56,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
@@ -70,6 +76,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
@@ -89,6 +97,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
@@ -107,6 +117,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
@@ -126,11 +138,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 8,
     name: "MORTAL",
     role:
       "owner S8ul",
@@ -145,11 +159,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 9,
     name: "SCOUT",
     role:
       "Content Creator",
@@ -164,11 +180,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 10,
     name: "ZEREF",
     role:
       "Content Creator",
@@ -183,11 +201,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 11,
     name: "KAASHVI",
     role:
       "Content Creator",
@@ -202,11 +222,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 12,
     name: "K18",
     role:
       "Content Creator",
@@ -221,11 +243,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 13,
     name: "SHERLOCK",
     role:
       "Content Creator",
@@ -240,11 +264,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 14,
     name: "REBEL",
     role:
       "Content Creator",
@@ -259,11 +285,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 15,
     name: "AMAN",
     role:
       "Content Creator",
@@ -278,11 +306,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 16,
     name: "VIPER",
     role:
       "Content Creator",
@@ -297,11 +327,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 17,
     name: "MILI",
     role:
       "Content Creator",
@@ -316,11 +348,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 18,
     name: "SNAX",
     role:
       "Content Creator",
@@ -335,11 +369,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id:19,
     name: "KRUTIKA",
     role:
       "Content Creator",
@@ -354,11 +390,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 20,
     name: "PAYAL",
     role:
       "Content Creator",
@@ -373,11 +411,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 21,
     name: "MAFIA",
     role:
       "Content Creator",
@@ -392,11 +432,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 22,
     name: "MAVI",
     role:
       "Content Creator",
@@ -411,11 +453,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 23,
     name: "REGALTOS",
     role:
       "Content Creator",
@@ -430,11 +474,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 24,
     name: "AKSHU",
     role:
       "Content Creator",
@@ -449,13 +495,15 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   
   
   {
-    id: 7,
+    id: 25,
     name: "ULTRON",
     role:
       "Content Creator",
@@ -470,11 +518,13 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },
   {
-    id: 7,
+    id: 26,
     name: "POTHEAD",
     role:
       "Content Creator",
@@ -489,6 +539,8 @@ imageprofile : "https://www.esportsperson.com/public/uploads/88afa241376db6806ba
 insta : "insta",
 discord : "discord",
 loco : "loco",
+realname : "",
+youtube : "",
     
 
   },

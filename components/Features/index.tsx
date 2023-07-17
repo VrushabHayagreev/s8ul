@@ -7,9 +7,9 @@ const Features = () => {
     <>
       <section
         id="features"
-        className="bg-primary/[.03] py-16 md:py-20 lg:py-28 "
+        className=" bg-gradient-to-br from-[#0083f5] via-[#00bfd8] to-[#0083f5] py-16 md:py-20 lg:py-28 "
       >
-        <div className="container">
+        <div className="container  ">
           <SectionTitle
             title="What They Offer"
             paragraph="S8ul has its foot in almost every game here are a few games. Still waiting for valorant XD"

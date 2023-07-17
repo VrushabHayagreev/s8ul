@@ -11,7 +11,7 @@ const Video = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 bg-gradient-to-br from-[#0083f5] via-[#00bfd8] to-[#0083f5] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
           title="get to know us"

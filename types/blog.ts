@@ -12,5 +12,7 @@ export type Blog = {
   insta : string;
   discord : string;
   loco : string;
+  realname : string;
+  youtube : string;
 };
 

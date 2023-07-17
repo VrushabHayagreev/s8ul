@@ -38,9 +38,9 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header top-0 left-0 z-40 flex w-full items-center bg-transparent ${
+        className={`header top-0 left-0 z-40 flex w-full  items-center   ${
           sticky
-            ? "!fixed !z-[9999] !bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm !transition dark:!bg-primary dark:!bg-opacity-20"
+            ? "!fixed !z-[9999] !bg-primary !bg-opacity-40 shadow-sticky backdrop-blur-xl  !transition dark:!bg-primary dark:!bg-opacity-40"
             : "absolute"
         }`}
       >
@@ -56,32 +56,32 @@ const Header = () => {
                 <Image
                   src="/images/favicon.png"
                   alt="logo"
-                  width={140}
-                  height={30}
+                  width={120}
+                  height={20}
                   className="hidden w-full dark:block"
                 />
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between px-4">
+            <div className="flex w-full items-center justify-between px-">
               <div>
                 <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
-                  className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+                  className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-white focus:ring-2 lg:hidden"
                 >
                   <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
+                    className={`relative my-1.5 block h-0.5 w-[30px]  transition-all duration-300 dark:bg-white ${
                       navbarOpen ? " top-[7px] rotate-45" : " "
                     }`}
                   />
                   <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
+                    className={`relative my-1.5 block h-0.5 w-[30px]  transition-all duration-300 dark:bg-white ${
                       navbarOpen ? "opacity-0 " : " "
                     }`}
                   />
                   <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
+                    className={`relative my-1.5 block h-0.5 w-[30px] transition-all duration-300 dark:bg-white ${
                       navbarOpen ? " top-[-8px] -rotate-45" : " "
                     }`}
                   />
@@ -142,23 +142,24 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              {/* <div className="flex items-center justify-end pr-16 lg:pr-0">
+              <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
-                  href="/signin"
+                  href="https://github.com/VrushabHayagreev/s8ul"
                   className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
                 >
-                  Sign In
+                  Github
                 </Link>
-                <Link
-                  href="/signup"
+                {/* <Link
+                  href="/play"
                   className="ease-in-up hidden rounded-md bg-primary py-3 px-8 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
                 >
-                  Sign Up
-                </Link>
-                <div>
+                  Play
+                </Link> */}
+                
+                {/* <div>
                   <ThemeToggler />
-                </div>
-              </div> */}
+                </div> */}
+              </div>
             </div>
           </div>
         </div>

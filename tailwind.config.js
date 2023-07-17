@@ -67,10 +67,16 @@ module.exports = {
         '35': '0.35',
         '65': '0.65',
        },
+       backgroundOpacity: {
+             '10': '0.1',
+             '20': '0.2',
+            '50': '0.50',
+            
+                },
       backgroundImage:{
         'landing': 'url(https://wallpapercave.com/wp/wp9527211.jpg)',
         'rest' : 'url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700321608.jpg)',
-        'soul':'url(https://server-avatar.nimostatic.tv/201904301556598026100_2339511938981_avatar.png)',
+        'soul':"linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0, 0.3)), url(https://www.hgunified.com/wp-content/uploads/2022/12/S8UL-logo.png)",
       },
     },
   },
