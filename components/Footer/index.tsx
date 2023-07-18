@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="wow fadeInUp relative z-10 bg-[#0083f5]  bg-opacity-50 pt-16 md:pt-20 lg:pt-24"
+        className="wow fadeInUp relative z-10 bg-gradient-to-r from-[#38bdf8] to-[#3b82f6]   pt-16 md:pt-20 lg:pt-24"
         data-wow-delay=".1s"
       >
         <div className="container">
@@ -28,14 +28,14 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
+                <p className="mb-9 text-base font-medium leading-relaxed text-black">
                   S8ul official
                 </p>
                 <div className="flex items-center">
                   <a
                     href="https://www.instagram.com/s8ul.esports/?hl=en"
                     aria-label="social-link"
-                    className="mr-6 text-[#CED3F6] hover:text-primary"
+                    className="mr-6 text-black hover:text-primary"
                   >
                     <svg
                       width="9"
@@ -49,7 +49,7 @@ const Footer = () => {
                   <a
                     href="https://www.instagram.com/s8ul.esports/?hl=en"
                     aria-label="social-link"
-                    className="mr-6 text-[#CED3F6] hover:text-primary"
+                    className="mr-6 text-black hover:text-primary"
                   >
                     <svg
                       width="19"
@@ -63,7 +63,7 @@ const Footer = () => {
                   <a
                     href="https://www.youtube.com/@S8ULGG"
                     aria-label="social-link"
-                    className="mr-6 text-[#CED3F6] hover:text-primary"
+                    className="mr-6 text-black hover:text-primary"
                   >
                     <svg
                       width="18"
@@ -77,7 +77,7 @@ const Footer = () => {
                   <a
                     href="https://www.linkedin.com/in/8bitthug/"
                     aria-label="social-link"
-                    className="mr-6 text-[#CED3F6] hover:text-primary"
+                    className="mr-6 text-black hover:text-primary"
                   >
                     <svg
                       width="17"
@@ -94,14 +94,14 @@ const Footer = () => {
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-black">
                   Useful Links
                 </h2>
                 <ul>
                   <li>
                     <a
                       href="/about"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-black hover:text-primary"
                     >
                       {" "}
                       About{" "}
@@ -110,7 +110,7 @@ const Footer = () => {
                   <li>
                     <a
                       href=" /blog"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-black hover:text-primary"
                     >
                       {" "}
                       Creators{" "}
@@ -119,7 +119,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/contact"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-black hover:text-primary"
                     >
                       {" "}
                       Support{" "}
@@ -131,14 +131,14 @@ const Footer = () => {
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-black">
                   Terms
                 </h2>
                 <ul>
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-black hover:text-primary"
                     >
                       {" "}
                       TOS{" "}
@@ -147,7 +147,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-black hover:text-primary"
                     >
                       {" "}
                       Privacy Policy{" "}
@@ -156,7 +156,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-black hover:text-primary"
                     >
                       {" "}
                       Refund Policy{" "}
@@ -168,14 +168,14 @@ const Footer = () => {
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-black">
                   Support & Help
                 </h2>
                 <ul>
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-black hover:text-primary"
                     >
                       {" "}
                       Open Support Ticket{" "}
@@ -184,7 +184,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-black hover:text-primary"
                     >
                       {" "}
                       Terms of Use{" "}
@@ -193,7 +193,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-black hover:text-primary"
                     >
                       {" "}
                       About{" "}
@@ -206,7 +206,7 @@ const Footer = () => {
         </div>
         <div className="bg-primary/10 py-8">
           <div className="container">
-            <p className="text-center text-base text-body-color dark:text-white">
+            <p className="text-center text-base text-black dark:text-black">
               By Vrushab Hanumesh
             </p>
           </div>

@@ -12,7 +12,7 @@ const checkIcon = (
 const AboutSectionOne = () => {
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
+      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md text-black/90  text-primary">
         {checkIcon}
       </span>
       {text}
@@ -21,7 +21,7 @@ const AboutSectionOne = () => {
 
   return (
   
-    <section id="about" className="bg-gradient-to-br from-[#0083f5] via-[#00bfd8] to-[#0083f5] pt-16 md:pt-20 lg:pt-28">
+    <section id="about" className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8] pt-5 md:pt-8 lg:pt-10">
   
 {/*     
           <div>
@@ -152,12 +152,12 @@ const AboutSectionOne = () => {
       </section>
     </div> */}
   
-       <section className="pt-20 pb-48">
+       <section className="pt-20 pb-48 text-black/90">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">The Owners</h2>
-                <p className="text-lg leading-relaxed m-4 text-blueGray-500">
+                <h2 className="text-4xl text-black/90 font-semibold">The Owners</h2>
+                <p className="text-lg leading-relaxed m-4 text-black/90">
                   Here are the owners of s8ul
                 </p>
               </div>

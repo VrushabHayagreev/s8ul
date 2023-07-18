@@ -11,7 +11,7 @@ const Blog = () => {
         description="Get To Know The Creators of S8ul"
       />
       
-      <section className="bg-gradient-to-br from-[#0083f5] via-[#00bfd8] to-[#0083f5] ">
+      <section className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8] ">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (

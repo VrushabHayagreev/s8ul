@@ -32,7 +32,7 @@ const SingleEsports = ({ blog }: { blog: Blog }) => {
                          <h3 className="text-center">
             <Link
               href={refr}
-              className="mb-4 block text-xl font-bold bg-gradient-to-br from-[#0083f5] via-[#00bfd8] to-[#0083f5] rounded-full p-3 text-white hover:text-black dark:text-white dark:hover:text-black sm:text-2xl"
+              className="mb-4 block text-l font-bold bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8] rounded-full p-2 text-white hover:text-black dark:text-white dark:hover:text-black sm:text-m"
             >
               Know More
             </Link>

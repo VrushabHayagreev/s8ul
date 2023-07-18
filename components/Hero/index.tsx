@@ -1,42 +1,44 @@
-import Link from "next/link";
+"use client";
+import React, { useState, useEffect, useRef } from "react";
+import CLOUD from "vanta/dist/vanta.clouds.min";
+import * as THREE from "three";
 
-const Hero = () => {
+const MyComponent = () => {
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const vantaRef = useRef(null);
+
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(
+        CLOUD({
+          el: vantaRef.current,
+          THREE: THREE,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 600.0,
+          minWidth: 600.0,
+          skyColor : "#0284c7",
+          scale: 5.0,
+          scaleMobile: 5.0
+        })
+      );
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.toString();
+    };
+  }, [vantaEffect]);
   return (
-    <>
-      <section
-        id="home"
-        className="relative z-10 bg-gradient-to-br from-[#0083f5] via-[#00bfd8] to-[#0083f5] overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
-      >
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
-              <div
-                className="wow fadeInUp mx-auto max-w-[800px] text-center"
-                data-wow-delay=".2s"
-              >
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Welcome to S8UL Fan Made Page
-                </h1>
-                <p className="mb-12 text-black text-base font-medium !leading-relaxed   sm:text-lg md:text-xl">
-                One Stop for everything you want to know about S8ul from content ctreation, esports to events.
-                </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  {/* <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
-                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                   Leave a Like here 
-                  </Link> */}
-                
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-       
-      </section>
-    </>
+
+    <div  ref={vantaRef}>
+         <br/> <br/> <br/>   <br/> <br/> <br/> <br/> <br/> <br/> 
+  
+      <h1 className="mt-2 hover:animate-bounce opacity-80 text-5xl text-black text-center font-bold tracking-tight md:text-6xl xl:text-7xl">
+            S8UL OFFICIAL <br /><span className=" text-4xl ">Get To Know Your Creators</span>
+          </h1>
+      <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> 
+    </div>
+ 
   );
 };
-
-export default Hero;
+export default MyComponent;

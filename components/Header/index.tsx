@@ -40,7 +40,7 @@ const Header = () => {
       <header
         className={`header top-0 left-0 z-40 flex w-full  items-center   ${
           sticky
-            ? "!fixed !z-[9999] !bg-primary !bg-opacity-40 shadow-sticky backdrop-blur-xl  !transition dark:!bg-primary dark:!bg-opacity-40"
+            ? "!fixed !z-[9999] !bg-black !bg-opacity-40 shadow-sticky backdrop-blur-xl  !transition dark:!bg-black dark:!bg-opacity-40"
             : "absolute"
         }`}
       >
@@ -100,7 +100,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:hover:underline dark:text-black lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                           >
                             {menuItem.title}
                           </Link>
@@ -108,7 +108,7 @@ const Header = () => {
                           <>
                             <a
                               onClick={() => handleSubmenu(index)}
-                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
+                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:opacity-70 dark:text-black lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
                             >
                               {menuItem.title}
                               <span className="pl-3">
@@ -121,7 +121,7 @@ const Header = () => {
                               </span>
                             </a>
                             <div
-                              className={`submenu relative top-full left-0 rounded-md bg-white transition-[top] duration-300 group-hover:opacity-100 dark:bg-dark lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${
+                              className={`submenu relative top-full left-0 rounded-md bg-white transition-[top] duration-300 group-hover:opacity-100  dark:bg-[#71c5e7] lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${
                                 openIndex === index ? "block" : "hidden"
                               }`}
                             >
@@ -129,7 +129,7 @@ const Header = () => {
                                 <Link
                                   href={submenuItem.path}
                                   key={submenuItem.id}
-                                  className="block rounded py-2.5 text-sm text-dark hover:opacity-70 dark:text-white lg:px-3"
+                                  className="block rounded dark:hover:underline py-2.5 text-sm text-dark hover:opacity-70 dark:text-black lg:px-3"
                                 >
                                   {submenuItem.title}
                                 </Link>
@@ -145,13 +145,13 @@ const Header = () => {
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
                   href="https://github.com/VrushabHayagreev/s8ul"
-                  className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
+                  className="hidden dark:hover:underline py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-black md:block"
                 >
                   Github
                 </Link>
                 {/* <Link
                   href="/play"
-                  className="ease-in-up hidden rounded-md bg-primary py-3 px-8 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
+                  className="ease-in-up hidden rounded-md bg-black py-3 px-8 text-base font-bold text-black transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Play
                 </Link> */}

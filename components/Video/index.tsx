@@ -11,11 +11,11 @@ const Video = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 bg-gradient-to-br from-[#0083f5] via-[#00bfd8] to-[#0083f5] py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 rounded-[40px]  bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8] py-5 md:py-3 lg:py-10">
       <div className="container">
         <SectionTitle
-          title="get to know us"
-          paragraph="here is a short video of S8ul"
+          title="Get To Know Us"
+          paragraph="Here is a short video of S8ul"
           center
           mb="80px"
         />
@@ -31,7 +31,7 @@ const Video = () => {
                 <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
                   <button
                     onClick={() => setOpen(true)}
-                    className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-primary transition hover:bg-opacity-100"
+                    className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-black bg-opacity-75 text-primary transition hover:bg-opacity-100"
                   >
                     <svg
                       width="16"

@@ -15,7 +15,7 @@ import { Carousel } from 'flowbite-react';
     description="Trophies and other Milestones"
       />
       
-      <section className="pt-[30px] bg-gradient-to-br from-[#0083f5] via-[#00bfd8] to-[#0083f5] pb-[30px]  ">
+      <section className="pt-[30px]  bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8]] pb-[30px]  ">
     
    
 
@@ -54,7 +54,7 @@ import { Carousel } from 'flowbite-react';
 
 <p className="mt-5 text-2xl text-center text-white">8bit Esports</p><br/><br/>
  
-     <div className="overflow-hidden relative h-80   shadow-5xl sm:h-64 xl:h-80 2xl:h-96">
+     <div className="overflow-hidden relative h-80   bg-black shadow-5xl sm:h-64 xl:h-80 2xl:h-96">
      
      <Carousel >
      {ach8bit.map((data) => (

@@ -34,6 +34,9 @@ module.exports = {
       dark: "#1D2144",
       primary: "#4A6CF7",
       yellow: "#FBB040",
+      sky : "#87ceeb",
+      orange : "#FFA500",
+      
       "body-color": "#959CB1",
     },
     
@@ -57,6 +60,9 @@ module.exports = {
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
+      fontFamily: {
+        'base': ['fantasy']
+      },
       boxShadow: {
         signUp: "0px 5px 10px rgba(4, 10, 34, 0.2)",
         one: "0px 2px 3px rgba(7, 7, 77, 0.05)",

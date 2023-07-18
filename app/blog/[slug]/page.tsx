@@ -14,13 +14,13 @@ const {name, dateofbirth,location,imageprofile, insta,loco,discord,shortdesc} = 
   
   return (
     <>
-  <section id="about" className=" pt-16 md:pt-20 lg:pt-28">
+  <section id="about" className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8] pt-16 md:pt-20 lg:pt-28">
 
 
-  <section className="pt-10 pb-20 bg-gradient-to-br from-[#0083f5] via-[#00bfd8] to-[#0083f5]">
+  <section className="pt-10 pb-20 ">
    <div className="container mx-auto px-4">
-   {/* style={{backgroundImage:"url(https://e0.pxfuel.com/wallpapers/476/89/desktop-wallpaper-gaming-top-25-gaming-background-purple-and-white-gaming.jpg)"}} */}
-     <section className="bg-cover " >
+  
+     <section className=" " >
      <div id="profile" className="container">
        <div  id="profile" className="-mx-4 flex flex-wrap justify-center">
        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/> 
@@ -36,7 +36,7 @@ const {name, dateofbirth,location,imageprofile, insta,loco,discord,shortdesc} = 
  
      <div className="p-4 md:p-12 text-center lg:text-left">
    
-       <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style={{backgroundImage:"url('https://www.esportsperson.com/public/uploads/88afa241376db6806ba13aa46094f9e5.webp')"}}></div>
+       <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" ></div>
      
        <h1 className="text-3xl text-gray-700 font-bold pt-8 lg:pt-0">{name}</h1>
        <h1 className="text-xl text-gray-700  pt-8 lg:pt-0">Real Name Here</h1>

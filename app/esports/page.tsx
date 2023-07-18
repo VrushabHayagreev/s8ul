@@ -10,7 +10,7 @@ const Blog = () => {
         pageName="Our Esports Players"
         description="Our Soul and 8bit Lineup"
       />
-      <section className="pt-[40px] pb-[40px] bg-gradient-to-br from-[#0083f5] via-[#00bfd8] to-[#0083f5] ">
+      <section className="pt-[40px] pb-[40px] bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8] ">
         <div className="container"> 
         
         <a href="https://www.instagram.com/s8ul.esports/?hl=en" className="text-gray-700  block text-center text-3xl  hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-3xl px-5 py-2.5 text-center mr-2 mb-2">SOUL Esports</a>

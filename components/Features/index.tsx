@@ -7,16 +7,17 @@ const Features = () => {
     <>
       <section
         id="features"
-        className=" bg-gradient-to-br from-[#0083f5] via-[#00bfd8] to-[#0083f5] py-16 md:py-20 lg:py-28 "
+        className=" bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8] py-5 md:py-3 lg:py-10 "
       >
         <div className="container  ">
+          
           <SectionTitle
             title="What They Offer"
             paragraph="S8ul has its foot in almost every game here are a few games. Still waiting for valorant XD"
             center
           />
 
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1   gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}
