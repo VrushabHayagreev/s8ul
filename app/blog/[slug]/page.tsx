@@ -14,7 +14,7 @@ const {name, dateofbirth,location,imageprofile, insta,loco,discord,shortdesc} = 
   
   return (
     <>
-  <section id="about" className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8] pt-16 md:pt-20 lg:pt-28">
+  <section id="about" className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8] pt-15 md:pt-20 lg:pt-28">
 
 
   <section className="pt-10 pb-20 ">
