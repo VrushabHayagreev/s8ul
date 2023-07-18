@@ -15,7 +15,7 @@ import { Carousel } from 'flowbite-react';
     description="Trophies and other Milestones"
       />
       
-      <section className="pt-[30px]  bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8]] pb-[30px]  ">
+      <section className="pt-[30px]  bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#06b6d4] to-[#3b82f6] pb-[30px]  ">
     
    
 
@@ -25,19 +25,19 @@ import { Carousel } from 'flowbite-react';
        
 <div className="max-w-2xl mx-auto  ">
 
-   <p className="mt-5 text-2xl text-center text-white">Soul Esports</p><br/><br/>
+   <p className="mt-5 text-4xl text-center text-black">Soul Esports</p><br/><br/>
     
         <div className="overflow-hidden relative h-80 bg-black  shadow-5xl sm:h-64 xl:h-80 2xl:h-96">
         
         <Carousel>
         {achsoul.map((data) => (
-                <div key={data.id} class="relative  shadow-2xl  rounded-lg">
+                <div key={data.id} className="relative  shadow-2xl  rounded-lg">
                 <img className= "transition opacity-40 ease-in-out delay-100 bg-blue-500 hover:-translate-y-4 hover:scale-110 hover:bg-indigo-500 duration-300 shadow-5xl hover:-translate-y-1 " src={data.img} />
-                <h1 class="absolute text-2xl text-bold text-white text-center w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                <h1 className="absolute text-2xl text-bold text-white text-center w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     {data.title}</h1>
                
-                <h3 class="absolute text-xl text-bold text-blue-300 top-5 left-5">{data.place}</h3>
-                <h3 class="absolute text-xl text-yellow text-bold text-green-300 bottom-5 right-5">{data.prize}</h3>
+                <h3 className="absolute text-xl text-bold text-blue-300 top-5 left-5">{data.place}</h3>
+                <h3 className="absolute text-xl text-yellow text-bold text-green-300 bottom-5 right-5">{data.prize}</h3>
              </div>
           
             ))}
@@ -52,19 +52,19 @@ import { Carousel } from 'flowbite-react';
     </div>
     <div className="max-w-2xl mx-auto">
 
-<p className="mt-5 text-2xl text-center text-white">8bit Esports</p><br/><br/>
+<p className="mt-5 text-4xl text-center text-bold text-black">8bit Esports</p><br/><br/>
  
      <div className="overflow-hidden relative h-80   bg-black shadow-5xl sm:h-64 xl:h-80 2xl:h-96">
      
      <Carousel >
      {ach8bit.map((data) => (
-             <div key={data.id} class="relative bg-black shadow-2xl  rounded-lg">
+             <div key={data.id} className="relative bg-black shadow-2xl  rounded-lg">
              <img className= "transition opacity-40 ease-in-out delay-100 bg-blue-500 hover:-translate-y-4 hover:scale-110 hover:bg-indigo-500 duration-300 shadow-5xl hover:-translate-y-1 " src={data.img} />
-             <h1 class="absolute text-2xl text-bold text-white text-center w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+             <h1 className="absolute text-2xl text-bold text-white text-center w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                  {data.title}</h1>
             
-             <h3 class="absolute text-xl text-bold text-blue-300 top-5 left-5">{data.place}</h3>
-             <h3 class="absolute text-xl  text-bold text-yellow  bottom-5 right-5">{data.prize}</h3>
+             <h3 className="absolute text-xl text-bold text-blue-300 top-5 left-5">{data.place}</h3>
+             <h3 className="absolute text-xl  text-bold text-yellow  bottom-5 right-5">{data.prize}</h3>
           </div>
        
          ))}

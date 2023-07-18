@@ -7,7 +7,7 @@ const Features = () => {
     <>
       <section
         id="features"
-        className=" bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8] py-5 md:py-3 lg:py-10 "
+        className=" bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#06b6d4] to-[#3b82f6] py-5 md:py-3 lg:py-10 "
       >
         <div className="container  ">
           

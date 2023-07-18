@@ -3,7 +3,7 @@ import { Feature } from "@/types/feature";
 const SingleFeature = ({ feature }: { feature: Feature }) => {
   const { icon, title, paragraph } = feature;
   return (
-    <div className="w-full p-3 bg-gradient-to-r from-[#fde68a] to-[#facc15]/80">
+    <div className="w-full p-3 bg-gradient-to-r from-[#fde68a] to-[#facc15]/75">
       <div className="wow fadeInUp" data-wow-delay=".15s">
         <div className="mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-md   text-black/90">
           <img src={icon}/>

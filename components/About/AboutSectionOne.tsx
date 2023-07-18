@@ -21,7 +21,7 @@ const AboutSectionOne = () => {
 
   return (
   
-    <section id="about" className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8] pt-5 md:pt-8 lg:pt-10">
+    <section id="about" className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#06b6d4] to-[#3b82f6] pt-5 md:pt-8 lg:pt-10">
   
 {/*     
           <div>

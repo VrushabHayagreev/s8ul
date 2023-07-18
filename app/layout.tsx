@@ -19,7 +19,7 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className="dark:bg-[#87ceeb] scroll-smooth">
+      <body className="dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#06b6d4] to-[#3b82f6]">
         <Providers>
           <Header />
           {children}

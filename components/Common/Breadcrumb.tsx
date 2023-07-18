@@ -14,10 +14,10 @@ const Breadcrumb = ({
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 md:w-8/12 lg:w-7/12">
               <div className="mb-8 max-w-[570px] md:mb-0 lg:mb-12">
-                <h1 className="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl">
+                <h1 className="mb-5 text-2xl font-bold text-black dark:text-black sm:text-3xl">
                   {pageName}
                 </h1>
-                <p className="text-base font-medium leading-relaxed text-black">
+                <p className=" text-xl font-medium leading-relaxed text-black">
                   {description}
                 </p>
               </div>
@@ -34,7 +34,7 @@ const Breadcrumb = ({
                     </Link>
                     <span className="mr-3 block h-2 w-2 rotate-45 border-t-2 border-r-2 border-black"></span>
                   </li>
-                  <li className="text-base font-medium text-primary">
+                  <li className="text-black font-medium ">
                     {pageName}
                   </li>
                 </ul>

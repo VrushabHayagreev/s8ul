@@ -1,7 +1,7 @@
 const NewsLatterBox = () => {
   return (
     <div
-      className="wow fadeInUp relative z-10  dark:bg-gradient-to-r from-[#38bdf8] to-[#3b82f6]  rounded-[20px] sm:p-11 lg:p-8 xl:p-11"
+      className="wow fadeInUp relative z-10  dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#06b6d4] to-[#3b82f6]  rounded-[20px] sm:p-11 lg:p-8 xl:p-11"
       data-wow-delay=".2s"
     >
       <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-black">
