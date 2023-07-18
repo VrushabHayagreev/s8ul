@@ -18,7 +18,8 @@ const MyComponent = () => {
           gyroControls: false,
           minHeight: 600.0,
           minWidth: 600.0,
-          skyColor : "#0284c7",
+          skyColor : "#7dd3fc",
+          cloudColor:"#dbeafe",
           scale: 5.0,
           scaleMobile: 5.0
         })
