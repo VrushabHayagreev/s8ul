@@ -25,7 +25,7 @@ import { Carousel } from 'flowbite-react';
        
 <div className="max-w-2xl mx-auto  ">
 
-   <p className="mt-5 text-4xl text-center text-black">Soul Esports</p><br/><br/>
+   <p className="text-black  block text-center text-3xl   mt-2  opacity-80 text-3xl   font-bold tracking-tight md:text-3xl xl:text-5xl">Soul Esports</p><br/><br/>
     
         <div className="overflow-hidden relative h-80 bg-black  shadow-5xl sm:h-64 xl:h-80 2xl:h-96">
         
@@ -52,7 +52,7 @@ import { Carousel } from 'flowbite-react';
     </div>
     <div className="max-w-2xl mx-auto">
 
-<p className="mt-5 text-4xl text-center text-bold text-black">8bit Esports</p><br/><br/>
+<p className="text-black  block text-center text-3xl   mt-2  opacity-80 text-3xl   font-bold tracking-tight md:text-3xl xl:text-5xl">8bit Esports</p><br/><br/>
  
      <div className="overflow-hidden relative h-80   bg-black shadow-5xl sm:h-64 xl:h-80 2xl:h-96">
      
