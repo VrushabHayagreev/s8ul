@@ -6,7 +6,6 @@ import ScrollToTop from "@/components/ScrollToTop";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 import Script from "next/script";
-
 export default function RootLayout({
   children,
 }: {
