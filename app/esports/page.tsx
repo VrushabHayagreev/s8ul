@@ -10,10 +10,10 @@ const Blog = () => {
         pageName="Our Esports Players"
         description="Our Soul and 8bit Lineup"
       />
-      <section className="pt-[40px] pb-[40px] bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#06b6d4] to-[#3b82f6] ">
+      <section className="pt-[40px] pb-[40px] dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black ">
         <div className="container"> 
         
-        <a href="https://www.instagram.com/s8ul.esports/?hl=en" className="text-black  block text-center text-3xl   mt-2  opacity-80 text-3xl   font-bold tracking-tight md:text-3xl xl:text-5xl">SOUL Esports</a>
+        <a href="https://www.instagram.com/s8ul.esports/?hl=en" className="dark:text-white  block text-center text-3xl   mt-2  opacity-80 text-3xl   font-bold tracking-tight md:text-3xl xl:text-5xl">SOUL Esports</a>
 
           <div className="-mx-4 flex flex-wrap justify-center">
             {soul.map((blog) => (
@@ -28,7 +28,7 @@ const Blog = () => {
   
 
 
-      <a href="https://www.instagram.com/8bit.esportsofficial/" className="mt-2  opacity-80 text-3xl text-black text-center font-bold tracking-tight md:text-3xl xl:text-5xl">8bit Esports</a>
+      <a href="https://www.instagram.com/8bit.esportsofficial/" className="mt-2  opacity-80 text-3xl dark:text-white text-center font-bold tracking-tight md:text-3xl xl:text-5xl">8bit Esports</a>
 
       </div>
 

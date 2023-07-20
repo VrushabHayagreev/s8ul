@@ -2,16 +2,16 @@ import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
   return (
-    <section id="contact" className=" bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#06b6d4] to-[#3b82f6]  overflow-hidden py-5 md:py-8 lg:py-10">
-      <div className="container ">
+    <section id="contact" className=" dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black  overflow-hidden py-5 md:py-8 lg:py-10">
+      <div className="container pt-20 pb-20  ">
         <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
+          <div className="w-full  px-4 lg:w-7/12 xl:w-8/12">
             <div
-              className="wow text-black/90fadeInUp mb-12 rounded-md  py-11 px-8 dark:bg-gradient-to-r from-[#38bdf8] to-[#3b82f6]  rounded-[20px] sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
+              className="wow text-black/90fadeInUp mb-12 rounded-md  py-11 px-8   shadow-2xl shadow-black dark:shadow-primary dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black  to-black rounded-[20px] sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
               data-wow-delay=".15s
               "
             >
-              <h2 className="mb-3 text-2xl font-bold text-black dark:text-black sm:text-3xl lg:text-2xl xl:text-3xl">
+              <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
                 Need Help? Open a Ticket
               </h2>
               <p className="mb-12 text-base font-medium text-black">
@@ -23,7 +23,7 @@ const Contact = () => {
                     <div className="mb-8">
                       <label
                         htmlFor="name"
-                        className="mb-3 block text-sm font-medium text-dark dark:text-black"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
                         Your Name
                       </label>
@@ -38,7 +38,7 @@ const Contact = () => {
                     <div className="mb-8">
                       <label
                         htmlFor="email"
-                        className="mb-3 block text-sm font-medium text-dark dark:text-black"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
                         Your Email
                       </label>
@@ -53,7 +53,7 @@ const Contact = () => {
                     <div className="mb-8">
                       <label
                         htmlFor="message"
-                        className="mb-3 block text-sm font-medium text-dark dark:text-black"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
                         Your Message
                       </label>
@@ -66,7 +66,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <button className="rounded-md bg-[#22d3ee] py-4 px-9 text-base font-medium text-black transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                    <button className="rounded-md bg-primary py-4 px-9 text-base font-medium text-black transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
                       Submit Ticket
                     </button>
                   </div>

@@ -7,9 +7,9 @@ const Features = () => {
     <>
       <section
         id="features"
-        className=" bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#06b6d4] to-[#3b82f6] py-5 md:py-3 lg:py-10 "
+        className=" dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black  py-5 md:py-3 lg:py-10 "
       >
-        <div className="container  ">
+        <div className="container pb-20 pt-10  ">
           
           <SectionTitle
             title="What They Offer"
@@ -17,7 +17,7 @@ const Features = () => {
             center
           />
 
-          <div className="grid grid-cols-1   gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1  dark: gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}

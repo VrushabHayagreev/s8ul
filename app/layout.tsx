@@ -6,6 +6,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 import Script from "next/script";
+
 export default function RootLayout({
   children,
 }: {
@@ -24,7 +25,7 @@ export default function RootLayout({
           gtag('config', 'G-MQLB2KMK9G');
         `}
       </Script>
-      <body className="dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#06b6d4] to-[#3b82f6]">
+      <body className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#2563eb] via-[#0284c7] to-[#7dd3fc] dark:bg-black">
         <Providers>
           <Header />
           {children}

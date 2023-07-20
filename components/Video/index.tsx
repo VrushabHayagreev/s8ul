@@ -6,13 +6,13 @@ import SectionTitle from "../Common/SectionTitle";
 
 import ModalVideo from "react-modal-video";
 
-
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
 
+
   return (
-    <section className="relative z-10 rounded-[40px]  bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#0284c7] to-[#38bdf8] py-5 md:py-3 lg:py-10">
-      <div className="container">
+    <section className="relative z-10  dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black   py-5 md:py-3 lg:py-10">
+      <div className="container pt-10 pb-10">
         <SectionTitle
           title="Get To Know Us"
           paragraph="Here is a short video of S8ul"
@@ -23,7 +23,7 @@ const Video = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div
-              className="wow fadeInUp mx-auto max-w-[770px] overflow-hidden rounded-md"
+              className="wow fadeInUp mx-auto max-w-[770px] dark:shadow-xl dark:shadow-primary overflow-hidden rounded-md"
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
@@ -33,15 +33,11 @@ const Video = () => {
                     onClick={() => setOpen(true)}
                     className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-black bg-opacity-75 text-primary transition hover:bg-opacity-100"
                   >
-                    <svg
-                      width="16"
-                      height="18"
-                      viewBox="0 0 16 18"
-                      className="fill-current"
-                    >
-                      <path d="M15.5 8.13397C16.1667 8.51888 16.1667 9.48112 15.5 9.86602L2 17.6603C1.33333 18.0452 0.499999 17.564 0.499999 16.7942L0.5 1.20577C0.5 0.43597 1.33333 -0.0451549 2 0.339745L15.5 8.13397Z" />
-                    </svg>
+                  
                   </button>
+               
+                  
+              
                 </div>
               </div>
             </div>
@@ -58,9 +54,7 @@ const Video = () => {
         onClose={() => setOpen(false)}
       />
 
-      <div className="absolute bottom-0 left-0 right-0 z-[-1]">
-        <img src="/images/video/shape.svg" alt="shape" className="w-full" />
-      </div>
+      
     </section>
   );
 };

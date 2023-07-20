@@ -9,15 +9,15 @@ const Breadcrumb = ({
 }) => {
   return (
     <>
-      <section className="relative z-10 bg-gradient-to-r from-[#38bdf8] to-[#3b82f6]    overflow-hidden pt-28 lg:pt-[150px]">
+      <section className="relative z-10   dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black    overflow-hidden pt-28 lg:pt-[150px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 md:w-8/12 lg:w-7/12">
               <div className="mb-8 max-w-[570px] md:mb-0 lg:mb-12">
-                <h1 className="mb-5 text-2xl font-bold text-black dark:text-black sm:text-3xl">
+                <h1 className="mb-5 text-2xl dark:text-white font-bold text-black  sm:text-3xl">
                   {pageName}
                 </h1>
-                <p className=" text-xl font-medium leading-relaxed text-black">
+                <p className=" text-xl dark:text-white font-medium leading-relaxed text-black">
                   {description}
                 </p>
               </div>
@@ -28,13 +28,13 @@ const Breadcrumb = ({
                   <li className="flex items-center">
                     <Link
                       href="/"
-                      className="pr-1 text-base font-medium text-black hover:text-primary"
+                      className="pr-1 dark:text-white text-base font-medium text-black hover:text-primary"
                     >
                       Home
                     </Link>
                     <span className="mr-3 block h-2 w-2 rotate-45 border-t-2 border-r-2 border-black"></span>
                   </li>
-                  <li className="text-black font-medium ">
+                  <li className="dark:text-white font-medium ">
                     {pageName}
                   </li>
                 </ul>

@@ -3,9 +3,12 @@ import React, { useState, useEffect, useRef } from "react";
 import CLOUD from "vanta/dist/vanta.clouds.min";
 import * as THREE from "three";
 
+
 const MyComponent = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
+
+
 
   useEffect(() => {
     if (!vantaEffect) {
@@ -20,6 +23,7 @@ const MyComponent = () => {
           minWidth: 600.0,
           skyColor : "#0284c7",
           cloudColor:"#bae6fd",
+       
           scale: 5.0,
           scaleMobile: 5.0
         })
@@ -31,7 +35,7 @@ const MyComponent = () => {
   }, [vantaEffect]);
   return (
 
-    <div  ref={vantaRef}>
+    <div  ref={vantaRef} className="">
          <br/> <br/> <br/>   <br/> <br/> <br/> <br/> <br/> <br/> 
   
       <h1 className="mt-2 hover:animate-bounce opacity-80 text-5xl text-black text-center font-bold tracking-tight md:text-6xl xl:text-7xl">

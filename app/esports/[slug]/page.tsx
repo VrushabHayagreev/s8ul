@@ -14,7 +14,7 @@ const {name, dateofbirth,location,imageprofile,realname,youtube, insta,loco,disc
   
   return (
     <>
-  <section id="about" className="pt-16 md:pt-20 lg:pt-28 bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#06b6d4] to-[#3b82f6]">
+  <section id="about" className="pt-16 md:pt-20 lg:pt-28 dark:bg-black">
 
 
   <section className="pt-10 pb-20  ">
@@ -29,9 +29,9 @@ const {name, dateofbirth,location,imageprofile,realname,youtube, insta,loco,disc
  
  
  
-   <div className="max-w-7xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+   <div className="max-w-7xl flex items-center dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black  h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
    
-   <div id="profile" className="w-200 lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 py-5 lg:mx-0">
+   <div id="profile" className="w-200 lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white dark:bg-gray-700 opacity-75 mx-6 py-5 lg:mx-0">
  
  
      <div className="p-4 md:p-12 text-center lg:text-left">

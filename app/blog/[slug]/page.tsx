@@ -14,7 +14,7 @@ const {name, dateofbirth,location,imageprofile,realname,youtube, insta,loco,disc
   
   return (
     <>
-  <section id="about" className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#06b6d4] to-[#3b82f6] pt-15 md:pt-20 lg:pt-28">
+  <section id="about" className="dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black   pt-15 md:pt-20 lg:pt-28">
 
 
   <section className="pt-10 pb-20 ">
@@ -36,7 +36,7 @@ const {name, dateofbirth,location,imageprofile,realname,youtube, insta,loco,disc
  
      <div className="p-4 md:p-12 text-center lg:text-left">
    
-       <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" ></div>
+       <div className="block lg:hidden rounded-full shadow-xl dark:bg-gray  mx-auto -mt-16 h-48 w-48 bg-cover bg-center" ></div>
      
        <h1 className="text-3xl text-gray-700 font-bold pt-8 lg:pt-0">{name}</h1>
        <h1 className="text-xl text-gray-700  pt-8 lg:pt-0">{realname}</h1>

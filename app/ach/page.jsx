@@ -15,7 +15,7 @@ import { Carousel } from 'flowbite-react';
     description="Trophies and other Milestones"
       />
       
-      <section className="pt-[30px]  bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#06b6d4] to-[#3b82f6] pb-[30px]  ">
+      <section className="pt-[30px] dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black  pb-[30px]  ">
     
    
 
@@ -23,11 +23,11 @@ import { Carousel } from 'flowbite-react';
         <div className="container ">
    
        
-<div className="max-w-2xl mx-auto  ">
+<div className="max-w-2xl rounded-lg mx-auto pt-10 pb-20">
 
-   <p className="text-black  block text-center text-3xl   mt-2  opacity-80 text-3xl   font-bold tracking-tight md:text-3xl xl:text-5xl">Soul Esports</p><br/><br/>
+   <p className="text-black  block text-center text-3xl   mt-2  opacity-80 text-3xl  dark:text-white font-bold tracking-tight md:text-3xl xl:text-5xl">Soul Esports</p><br/><br/>
     
-        <div className="overflow-hidden relative h-80 bg-black  shadow-5xl sm:h-64 xl:h-80 2xl:h-96">
+        <div className="overflow-hidden rounded-lg relative h-80 bg-black  shadow-2xl shadow-black dark:shadow-primary sm:h-64 xl:h-80 2xl:h-96">
         
         <Carousel>
         {achsoul.map((data) => (
@@ -36,7 +36,7 @@ import { Carousel } from 'flowbite-react';
                 <h1 className="absolute text-2xl text-bold text-white text-center w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     {data.title}</h1>
                
-                <h3 className="absolute text-xl text-bold text-blue-300 top-5 left-5">{data.place}</h3>
+                <h3 className="absolute text-white text-xl text-bold text-blue-300 top-5 left-5">{data.place}</h3>
                 <h3 className="absolute text-xl text-yellow text-bold text-green-300 bottom-5 right-5">{data.prize}</h3>
              </div>
           
@@ -50,11 +50,11 @@ import { Carousel } from 'flowbite-react';
   
  
     </div>
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-2xl pb-10 rounded-lg mx-auto">
 
-<p className="text-black  block text-center text-3xl   mt-2  opacity-80 text-3xl   font-bold tracking-tight md:text-3xl xl:text-5xl">8bit Esports</p><br/><br/>
+<p className="text-black  block text-center text-3xl   mt-2  opacity-80 text-3xl  dark:text-white font-bold tracking-tight md:text-3xl xl:text-5xl">8bit Esports</p><br/><br/>
  
-     <div className="overflow-hidden relative h-80   bg-black shadow-5xl sm:h-64 xl:h-80 2xl:h-96">
+     <div className="overflow-hidden relative h-80 rounded-lg  bg-black shadow-2xl shadow-black dark:shadow-primary sm:h-64 xl:h-80 2xl:h-96">
      
      <Carousel >
      {ach8bit.map((data) => (
@@ -63,7 +63,7 @@ import { Carousel } from 'flowbite-react';
              <h1 className="absolute text-2xl text-bold text-white text-center w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                  {data.title}</h1>
             
-             <h3 className="absolute text-xl text-bold text-blue-300 top-5 left-5">{data.place}</h3>
+             <h3 className="absolute text-xl text-white text-bold text-blue-300 top-5 left-5">{data.place}</h3>
              <h3 className="absolute text-xl  text-bold text-yellow  bottom-5 right-5">{data.prize}</h3>
           </div>
        
