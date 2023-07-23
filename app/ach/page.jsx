@@ -15,7 +15,7 @@ import { Carousel } from 'flowbite-react';
     description="Trophies and other Milestones"
       />
       
-      <section className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#60a5fa] via-[#0ea5e9] to-[#22d3ee] pt-[30px] dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black  pb-[30px]  ">
+      <section className="pt-[30px] dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black  pb-[30px]  ">
     
    
 
