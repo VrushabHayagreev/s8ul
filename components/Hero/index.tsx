@@ -2,13 +2,18 @@
 import React, { useState, useEffect, useRef } from "react";
 import CLOUD from "vanta/dist/vanta.clouds.min";
 import * as THREE from "three";
-
-
+import { store } from "../store";
 const MyComponent = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
-
-
+const [theme2, setTheme2] = store.useState("theme")
+var t = " "
+if(theme2==="dark"){
+  t = "#0284c7"
+}
+else{
+  t = "#000000"
+}
 
   useEffect(() => {
     if (!vantaEffect) {
@@ -38,7 +43,7 @@ const MyComponent = () => {
     <div  ref={vantaRef} className="">
          <br/> <br/> <br/>   <br/> <br/> <br/> <br/> <br/> <br/> 
   
-      <h1 className="mt-2 hover:animate-bounce opacity-80 text-5xl text-black text-center font-bold tracking-tight md:text-6xl xl:text-7xl">
+      <h1 className="mt-2 hover:animate-bounce opacity-80 text-5xl text-black dark:text-white text-center font-bold tracking-tight md:text-6xl xl:text-7xl">
             S8UL OFFICIAL <br /><span className=" text-4xl ">Get To Know Your Creators</span>
           </h1>
       <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> 

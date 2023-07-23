@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import React from "react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
@@ -12,7 +13,7 @@ const Header = () => {
     setNavbarOpen(!navbarOpen);
   };
 
-  // Sticky Navbar
+
   const [sticky, setSticky] = useState(false);
   const handleStickyNavbar = () => {
     if (window.scrollY >= 80) {
@@ -58,9 +59,11 @@ const Header = () => {
                   alt="logo"
                   width={120}
                   height={20}
-                  className="hidden w-full dark:block"
+                  className=" w-full  dark:block"
                 />
+            
               </Link>
+              
             </div>
             <div className="flex w-full items-center justify-between px-">
               <div>
@@ -100,7 +103,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:hover:underline dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                            className={`flex py-2 text-base text-dark   group-hover:opacity-70 hover:underline dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                           >
                             {menuItem.title}
                           </Link>
@@ -108,7 +111,7 @@ const Header = () => {
                           <>
                             <a
                               onClick={() => handleSubmenu(index)}
-                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
+                              className="flex cursor-pointer items-center active:text-white justify-between py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0"
                             >
                               {menuItem.title}
                               <span className="pl-3">
@@ -121,7 +124,7 @@ const Header = () => {
                               </span>
                             </a>
                             <div
-                              className={`submenu relative top-full left-0 rounded-md bg-[#71c5e7] dark:bg-black transition-[top] duration-300 group-hover:opacity-100  text-white lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full dark:text-white ${
+                              className={`submenu relative top-full left-0 rounded-md bg-[#71c5e7] active:text-primary dark:bg-black transition-[top] duration-300 group-hover:opacity-100  text-white lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full dark:text-white ${
                                 openIndex === index ? "block" : "hidden"
                               }`}
                             >
@@ -129,7 +132,7 @@ const Header = () => {
                                 <Link
                                   href={submenuItem.path}
                                   key={submenuItem.id}
-                                  className="block rounded dark:hover:underline py-2.5 text-sm text-white hover:opacity-70 dark:text-white  lg:px-3"
+                                  className="block rounded active:text-primary   hover:underline py-2.5 text-sm text-white hover:opacity-70 dark:text-white  lg:px-3"
                                 >
                                   {submenuItem.title}
                                 </Link>
@@ -147,7 +150,7 @@ const Header = () => {
                   href="https://github.com/VrushabHayagreev/s8ul"
                   className="hidden dark:hover:underline py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
                 >
-                  Github
+          
                 </Link>
                 {/* <Link
                   href="/play"

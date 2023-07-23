@@ -36,9 +36,9 @@ const AboutSectionOne = () => {
               </div>
             </div>
             
-            <div className="flex flex-wrap dark:text-white">
+            <div className="flex flex-wrap dark:text-white ">
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6 dark:shadow-xl dark:shadow-primary">
+                <div className="px-6  rounded-md  shadow-2xl shadow-black dark:shadow-xl dark:shadow-primary">
                   <img
                     alt="..."
                     src="images/owners/mortal.png"
@@ -73,7 +73,7 @@ const AboutSectionOne = () => {
                 </div>
               </div>
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6 dark:shadow-xl dark:shadow-primary">
+                <div className="px-6  rounded-md  shadow-2xl shadow-black dark:shadow-xl dark:shadow-primary">
                   <img
                     alt="..."
                     src="images/owners/thug.png"
@@ -102,7 +102,7 @@ const AboutSectionOne = () => {
                 </div>
               </div>
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6 dark:shadow-xl dark:shadow-primary">
+                <div className="px-6  rounded-md  shadow-2xl shadow-black dark:shadow-xl dark:shadow-primary">
                   <img
                     alt="..."
                     src="images/owners/goldybhai.png"
@@ -137,7 +137,7 @@ const AboutSectionOne = () => {
                 </div>
               </div>
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6 dark:shadow-xl dark:shadow-primary">
+                <div className="px-6  rounded-md  shadow-2xl shadow-black dark:shadow-xl dark:shadow-primary">
                   <img
                     alt="..."
                     src="images/owners/mercy.png"

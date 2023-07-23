@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
@@ -32,6 +31,7 @@
     "react-paginate": "^8.2.0",
     "react-router": "^6.14.1",
     "react-router-dom": "^6.14.1",
+    "state-pool": "^0.10.0",
     "three": "0.121.0",
     "vanta": "0.5.21"
   },

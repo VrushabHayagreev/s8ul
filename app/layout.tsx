@@ -24,7 +24,7 @@ export default function RootLayout({
           gtag('config', 'G-MQLB2KMK9G');
         `}
       </Script>
-      <body className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#2563eb] via-[#0284c7] to-[#7dd3fc] dark:bg-black">
+      <body className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#60a5fa] via-[#0ea5e9] to-[#22d3ee] dark:bg-black">
         <Providers>
           <Header />
           {children}

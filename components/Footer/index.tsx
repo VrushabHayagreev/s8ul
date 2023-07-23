@@ -118,54 +118,18 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/contact"
+                      href="/esports"
                       className="mb-4 inline-block text-base font-medium dark:text-white text-black hover:text-primary"
                     >
                       {" "}
-                      Support{" "}
+                      Esports{" "}
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 ">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold dark:text-white text-black ">
-                  Terms
-                </h2>
-                <ul>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base dark:text-white font-medium text-black hover:text-primary"
-                    >
-                      {" "}
-                      TOS{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium dark:text-white text-black hover:text-primary"
-                    >
-                      {" "}
-                      Privacy Policy{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-black dark:text-white  hover:text-primary"
-                    >
-                      {" "}
-                      Refund Policy{" "}
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
+           
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold dark:text-white text-black ">
@@ -174,7 +138,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="/contact"
                       className="mb-4 inline-block text-base dark:text-white font-medium text-black hover:text-primary"
                     >
                       {" "}
@@ -187,18 +151,10 @@ const Footer = () => {
                       className="mb-4 inline-block text-base dark:text-white font-medium text-black hover:text-primary"
                     >
                       {" "}
-                      Terms of Use{" "}
+                      Home{" "}
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium dark:text-white text-black hover:text-primary"
-                    >
-                      {" "}
-                      About{" "}
-                    </a>
-                  </li>
+               
                 </ul>
               </div>
             </div>

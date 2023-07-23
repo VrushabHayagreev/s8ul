@@ -14,13 +14,13 @@ const {name, dateofbirth,location,imageprofile,realname,youtube, insta,loco,disc
   
   return (
     <>
-  <section id="about" className="pt-16 md:pt-20 lg:pt-28 dark:bg-black">
+  <section id="about" className="pt-16 md:pt-20 lg:pt-28 dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black">
 
 
   <section className="pt-10 pb-20  ">
    <div className="container mx-auto px-4">
    
-     <section className="bg-cover" >
+     <section className="bg-cover  " >
      <div id="profile" className="container">
        <div  id="profile" className="-mx-4 flex flex-wrap justify-center">
        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/> 
@@ -29,7 +29,7 @@ const {name, dateofbirth,location,imageprofile,realname,youtube, insta,loco,disc
  
  
  
-   <div className="max-w-7xl flex items-center dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black  h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+   <div className="max-w-7xl flex items-center   h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
    
    <div id="profile" className="w-200 lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white dark:bg-gray-700 opacity-75 mx-6 py-5 lg:mx-0">
  

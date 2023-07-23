@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full  px-4 lg:w-7/12 xl:w-8/12">
             <div
-              className="wow text-black/90fadeInUp mb-12 rounded-md  py-11 px-8   shadow-2xl shadow-black dark:shadow-primary dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black  to-black rounded-[20px] sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
+              className="wow text-black/90fadeInUp mb-12   py-11 px-8 rounded-md  shadow-2xl shadow-black dark:shadow-primary dark:bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-[#374151] via-[#111827] to-black  to-black rounded-[20px] sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
               data-wow-delay=".15s
               "
             >
