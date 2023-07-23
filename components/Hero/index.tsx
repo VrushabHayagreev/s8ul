@@ -2,18 +2,18 @@
 import React, { useState, useEffect, useRef } from "react";
 import CLOUD from "vanta/dist/vanta.clouds.min";
 import * as THREE from "three";
-import { store } from "../store";
+// import { store } from "../store";
 const MyComponent = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
-const [theme2, setTheme2] = store.useState("theme")
-var t = " "
-if(theme2==="dark"){
-  t = "#0284c7"
-}
-else{
-  t = "#000000"
-}
+// const [theme2, setTheme2] = store.useState("theme")
+// var t = " "
+// if(theme2==="dark"){
+//   t = "#0284c7"
+// }
+// else{
+//   t = "#000000"
+// }
 
   useEffect(() => {
     if (!vantaEffect) {
