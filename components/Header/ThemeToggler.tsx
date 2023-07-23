@@ -8,6 +8,7 @@ function tog(){
   store.setState("theme", theme); 
   
   console.log(theme2)
+
 }
 const [theme2, setTheme2] = store.useState("theme");
   return (
