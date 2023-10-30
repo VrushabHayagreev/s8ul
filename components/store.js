@@ -1,8 +1,7 @@
 import { createStore } from 'state-pool';
 
-
-const store = createStore({"theme": "light"});
-
-// You can do some initializations here if you want
+const store = createStore({
+  "theme": "light",
+});
 
 export { store };
