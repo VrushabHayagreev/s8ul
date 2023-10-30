@@ -33,6 +33,7 @@ const MyComponent = () => {
       mouseControls: true,
       touchControls: true,
       gyroControls: false,
+      
       minHeight: 600.0,
       minWidth: 600.0,
       skyColor: "#020617",
